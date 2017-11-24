@@ -14,6 +14,8 @@ body {
     size: 1.6rem;
     family: $primary-font;
   }
+
+  @include font-smoothing;
 }
 
 a {
@@ -160,7 +162,7 @@ a {
 .items-container {
   padding: 10px 50px;
   flex: 0 0 100%;
-  width: 85vw;
+  width: 70vw;
 
   span {
     color: $grey-font;
@@ -206,7 +208,6 @@ a {
   }
 
   line-height: 2;
-  width: 70vw;
   color: $items-header;
   border-bottom: 1px solid $line;
 }
