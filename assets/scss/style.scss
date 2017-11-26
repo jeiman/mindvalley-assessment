@@ -52,13 +52,12 @@ a {
   h2 {
 
     font:  {
-      // size: 1.4rem;
       weight: normal;
     }
     margin: 0;
   }
 
-  &.sidebar-h {
+  &.sidebar-header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,7 +70,7 @@ a {
     background: $sidebar-header;
   }
 
-  &.topbar-h {
+  &.topbar-header {
     display: flex;
     flex-wrap: wrap;
     background: $topbar-header;
@@ -93,7 +92,6 @@ a {
         width: 250px;
         height: 45px;
         padding: 0 20px;
-
         border: 1px solid $topbar-header;
         outline: none;
         border-radius: 50px;
@@ -127,10 +125,6 @@ a {
   position: relative;
   right: 40px;
 }
-
-// .items-container, .navigation {
-//   height: 100%;
-// }
 
 .navigation {
   ul {
